@@ -14,6 +14,7 @@ plt.plot(X,Z)
 plt.show()
 '''
 data = numpy.loadtxt('data.txt')
+print(data)
 print(data.T)
 for row in data.T:
     # print(data[:,0])

@@ -24,5 +24,6 @@ for i in range(data.shape[0]):
     print("-"*30)
     print(S)
     print("=" * 30)
+    # bottom代表从底部什么坐标开始展示当前段的数据，因为是叠加，所以S的值每一次都上升
     plt.bar(X,data[i],bottom=S,color=color_list[i%len(color_list)])
 plt.show()

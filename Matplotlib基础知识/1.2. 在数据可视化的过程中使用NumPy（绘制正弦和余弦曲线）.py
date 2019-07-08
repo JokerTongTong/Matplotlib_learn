@@ -19,8 +19,9 @@ plt.plot(X,Z)
 plt.show()
 '''
 X = np.linspace(0, 2 * np.pi, 100) # 把一个范围分成多少份
-                                  # 将 0-2pi 分成100份 返回一个列表
-
+                                  # 将 0-2pi 分成100份 返回一个numpy数组
+# print(type(X))
+# print(X)
 Y = np.sin(X)
 plt.plot(X,Y)
 plt.show()
