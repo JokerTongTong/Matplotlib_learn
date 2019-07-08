@@ -27,7 +27,7 @@ boxplot:绘制盒状图
     
 '''
 
-data = np.random.randn(100)
+data = np.random.randn(100)  # 100个正太分布的随机值
 print(data)
 print(np.average(data))
 
