@@ -3,7 +3,11 @@
 
 import numpy
 import matplotlib.pyplot as plt
-
+'''
+markevery = int
+传入一个int值
+每相隔一段距离做一个标记，这段距离指的是横轴坐标
+'''
 
 X = numpy.linspace(-6,6,1024)
 Y1 = numpy.sinc(X) # 辛格函数 sinc(X) = sin(X) / X
