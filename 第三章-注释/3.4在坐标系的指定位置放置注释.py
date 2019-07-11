@@ -2,6 +2,13 @@
 import numpy
 import matplotlib.pyplot as plt
 
+'''
+plt.text()放置注释
+plt.xlabel()横轴下方标签
+plt.ylabel()纵轴左侧标签
+plt.title()图表上方标题
+'''
+
 # 注释如果含有中文字符，一定加下面代码，否则显示乱码或者框框，不显示中文
 plt.rcParams['font.sans-serif'] = ['SimHei']
 X = numpy.linspace(-5,5,1024)
