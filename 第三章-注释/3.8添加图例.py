@@ -9,6 +9,8 @@ Y1 = numpy.sin(X)
 Y2 = numpy.cos(X)
 plt.xlabel('X')
 plt.ylabel('Y')
+# lw 该参数为图像线条的粗细
+# label 该参数为图像线条的图例
 plt.plot(X,Y1,c = 'r', lw = 3, label='sin(X)')
 plt.plot(X,Y2,c = 'b', lw = 3, label='cos(X)')
 
